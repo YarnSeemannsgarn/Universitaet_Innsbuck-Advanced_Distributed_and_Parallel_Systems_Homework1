@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# By default you can't write the output (pngs) to another folder than ./ and $HOME
+# So just write to ./ and  move the files afterwards
+${BIN_DIR}/povray ${INPUT_DIR}/scherk.ini +I${INPUT_DIR}/scherk.pov +Oscherk.png +FN +W1024 +H768 +SF${SF} +EF${EF}

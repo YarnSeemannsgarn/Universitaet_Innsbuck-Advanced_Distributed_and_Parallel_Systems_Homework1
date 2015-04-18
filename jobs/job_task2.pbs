@@ -1,0 +1,3 @@
+#!/bin/sh
+
+${BIN_DIR}/gm convert -loop 0 -delay 0 *.png scherk.gif
